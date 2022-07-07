@@ -253,6 +253,11 @@ body {
 }
 
 .cartao__info--tempo::before {
+    content: "\e90c";
+    margin-right: 8px;    
+}
+
+.cartao__info--preco::before {
     content: "\e905";
     margin-right: 8px;    
 }
@@ -275,6 +280,11 @@ body {
 }
 
 .cartao__botao--play::before {
+    content: "\e90b";
+    font-size: 24px;
+}
+
+.cartao__botao--carrinho::before {
     content: "\e901";
     font-size: 24px;
 }
@@ -290,6 +300,10 @@ body {
 
 .cartao--recentes {
     display: block;
+}
+
+.produtos-recentes{
+    display: none;
 }
 
 .videos-recentes{
